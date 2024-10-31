@@ -1,0 +1,27 @@
+.promaker-whatsapp {
+    position: fixed;
+    bottom: 1.25rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    padding: 0.8rem;
+    border-radius: 50%;
+    background: #25d366;
+    transition: all .3s;
+    z-index: 99999;
+    img {
+        filter: invert(1);
+        display: block;
+    }
+    &:hover {
+        background: #128c7e !important;
+    }
+    &.left {
+        left: 1.25rem;
+    }
+    &.right {
+        right: 1.25rem;
+    }
+    &.shadow {
+        box-shadow: 0 3px 8px 0 rgba(0,0,0,0.25);
+    }
+}
